@@ -7,10 +7,13 @@ public class CreditCardFactory {
         CreditCard amexcc = new AmExCC();
         CreditCard invalidcc = new InvalidCC();
 
+        CreditCard discovercc = new DiscoverCC();
+
         // Setting up the chain
         visacc.setSuccessor(mastercc);
         mastercc.setSuccessor(amexcc);
-        amexcc.setSuccessor(invalidcc);
+        amexcc.setSuccessor(discovercc);
+        discovercc.setSuccessor(invalidcc);
 
         newCard = visacc.handleRequest(card_num);
 

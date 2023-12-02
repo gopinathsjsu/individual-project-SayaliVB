@@ -8,7 +8,7 @@ public class InvalidCC extends CreditCard{
         String cardtype ="Invalid: ";
         setCardNumber(card_num);
         if(card_num == null || card_num.isEmpty()){
-            cardtype += "empty or null card number";
+            cardtype += "empty/null card number";
             setCardType(cardtype);
             return true;
         }

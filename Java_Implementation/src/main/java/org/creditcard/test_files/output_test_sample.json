@@ -1,0 +1,9 @@
+{
+  "cards" : [ {
+    "cardType" : "Invalid: more than 19 digits",
+    "cardNumber" : "59012345678901234567890"
+  }, {
+    "cardType" : "Visa",
+    "cardNumber" : "4123456789123"
+  } ]
+}

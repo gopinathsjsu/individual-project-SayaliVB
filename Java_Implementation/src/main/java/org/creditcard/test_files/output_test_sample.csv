@@ -1,0 +1,3 @@
+cardNumber,cardType
+5567894523129089,MasterCard
+3601112345678789,Invalid: not a possible card number

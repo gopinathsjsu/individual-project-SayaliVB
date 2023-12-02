@@ -10,14 +10,20 @@ public class FileFormatFactory {
         String[] strarr  = ipfilename.split("\\.");
 
         int ind = strarr.length;
-        String extension = strarr[ind-1];
-        if(extension.equals("csv")){
+        String ipextension = strarr[ind-1];
+
+        strarr  = opfilename.split("\\.");
+        ind = strarr.length;
+        String opextension = strarr[ind-1];
+
+
+        if(ipextension.equals("csv") && opextension.equals("csv")){
             fileFormat=  new CSVFileFormat(ipfilename, opfilename);
         }
-        else if(extension.equals("json")){
+        else if(ipextension.equals("json") && opextension.equals("json")){
             fileFormat=  new JSONFileFormat(ipfilename, opfilename);
         }
-        else if(extension.equals("xml")){
+        else if(ipextension.equals("xml") && opextension.equals("xml")){
             fileFormat = new XMLFileFormat(ipfilename, opfilename);
         }
 

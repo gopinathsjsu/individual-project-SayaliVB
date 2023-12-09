@@ -4,7 +4,7 @@
 <summary>  
   
   ##   Console Input example: 
-  ====
+  ------
   
 </summary>
 

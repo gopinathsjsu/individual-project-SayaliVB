@@ -76,7 +76,9 @@ Implement an application (Java code and JUnit tests) for Part 1 and Part2 - that
 
 <details>
 
-<summary>  #### Console Input example: </summary>
+<summary>  
+  #### Console Input example: 
+</summary>
 
 input file name:
 

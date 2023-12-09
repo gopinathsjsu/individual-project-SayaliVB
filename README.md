@@ -1,9 +1,9 @@
-### H3 Credit card problem
+### Credit card problem
 
 <details>
   <summary>
 
-  #### H4 Part 1: (20 points)
+  #### Part 1: (20 points)
 
   </summary>
 
@@ -54,7 +54,7 @@ Hint: you face here (at least) two problems, one has to do with how you figure o
 <details>
   <summary>
 
-  #### H4 Part 2:  15 points (Design only)
+  #### Part 2:  15 points (Design only)
 
    </summary>
 
@@ -65,7 +65,7 @@ Continue with the design from Part 1 and extend it to parse different input file
 <details>
   <summary>
 
-  #### H4 Part 3: 65 points
+  #### Part 3: 65 points
 
   </summary>
 
@@ -76,7 +76,7 @@ Implement an application (Java code and JUnit tests) for Part 1 and Part2 - that
 
 <details>
 
-<summary>Console Input example:</summary>
+<summary>  #### Console Input example: </summary>
 
 input file name:
 

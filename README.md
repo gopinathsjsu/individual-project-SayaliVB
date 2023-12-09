@@ -75,5 +75,44 @@ Implement an application (Java code and JUnit tests) for Part 1 and Part2 - that
 
 
 
+### Repository structure:
+
+<details>
+  <summary>
+
+  #### Java_Implementation
+    
+  </summary>
+
+  This folder contains the complete java implementation for the project along with the JUnit test cases and sample input/ outpu files.
+</details>
+
+<details>
+  <summary>
+
+   ####  Part 1
+    
+  </summary>
+
+  Part 1 folder contains the documentation of the deliverables and uml class diagram for part 1 of the project.
+  It also contains the java implmentation for part 1.
+</details>
+
+<details>
+  <summary>
+
+   ####  Part 2
+    
+  </summary>
+
+  Part 2 folder contains the documentation of the deliverables and uml class diagram for part 2 of the project.
+</details>
+
+
+
+
+
+
+
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/9NZqTcR2)

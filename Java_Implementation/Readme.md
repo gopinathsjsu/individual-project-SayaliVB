@@ -2,8 +2,10 @@
 <details>
 
 <summary>  
+  
   ##   Console Input example: 
   ====
+  
 </summary>
 
 input file name:
